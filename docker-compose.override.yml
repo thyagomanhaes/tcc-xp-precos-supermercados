@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  scheduler:
+    networks:
+      - airflow_network
+  triggerer:
+    networks:
+      - airflow_network
+  api-server:
+    networks:
+      - airflow_network
+  dag-processor:
+    networks:
+      - airflow_network
+
+networks:
+  airflow_network:
+    external: true

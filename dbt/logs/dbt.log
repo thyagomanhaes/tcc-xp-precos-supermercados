@@ -1,0 +1,89 @@
+[0m12:58:32.726078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A3E2E570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A61E25D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A61E24E0>]}
+
+
+============================== 12:58:32.726078 | f4ff1d88-3b97-46dc-bb60-db8e55987250 ==============================
+[0m12:58:32.726078 [info ] [MainThread]: Running with dbt=1.9.6
+[0m12:58:32.726078 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\thyag\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init dbt_supermercados', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:58:32.763782 [debug] [MainThread]: Starter project path: C:\Users\thyag\.pyenv\pyenv-win\versions\3.12.5\Lib\site-packages\dbt\include\starter_project
+[0m12:58:32.795307 [info ] [MainThread]: 
+Your new dbt project "dbt_supermercados" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:58:32.796311 [info ] [MainThread]: Setting up your profile.
+[0m12:59:45.708780 [info ] [MainThread]: Profile dbt_supermercados written to C:\Users\thyag\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:59:45.708780 [debug] [MainThread]: Command `dbt init` succeeded at 12:59:45.708780 after 73.28 seconds
+[0m12:59:45.708780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A3D54380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A6E29640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A6E2A4E0>]}
+[0m12:59:45.708780 [debug] [MainThread]: Flushing usage events
+[0m12:59:46.552112 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:01:30.750456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002106703E2A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021066F682C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002106980C170>]}
+
+
+============================== 13:01:30.751462 | 4e6149cc-c64d-495f-9f32-169329831e84 ==============================
+[0m13:01:30.751462 [info ] [MainThread]: Running with dbt=1.9.6
+[0m13:01:30.751462 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\thyag\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:01:30.772064 [info ] [MainThread]: dbt version: 1.9.6
+[0m13:01:30.773065 [info ] [MainThread]: python version: 3.12.5
+[0m13:01:30.773065 [info ] [MainThread]: python path: C:\Users\thyag\.pyenv\pyenv-win\versions\3.12.5\python.exe
+[0m13:01:30.773902 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m13:01:30.820507 [info ] [MainThread]: Using profiles dir at C:\Users\thyag\.dbt
+[0m13:01:30.836237 [info ] [MainThread]: Using profiles.yml file at C:\Users\thyag\.dbt\profiles.yml
+[0m13:01:30.837239 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\thyag\repositorios-github\airflow3-project\dbt\dbt_project.yml
+[0m13:01:30.837239 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:01:30.838788 [debug] [MainThread]: Command `dbt debug` failed at 13:01:30.838788 after 0.41 seconds
+[0m13:01:30.838788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210696E9730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021069EAFE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002106A0CF620>]}
+[0m13:01:30.838788 [debug] [MainThread]: Flushing usage events
+[0m13:01:31.533725 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:02:09.251511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD85F7E6F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD88A8B500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD82DFF4D0>]}
+
+
+============================== 13:02:09.251511 | 23f2e8c2-1d6e-4978-80f6-76f7c0d9c388 ==============================
+[0m13:02:09.251511 [info ] [MainThread]: Running with dbt=1.9.6
+[0m13:02:09.251511 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\thyag\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:02:09.275828 [info ] [MainThread]: dbt version: 1.9.6
+[0m13:02:09.276421 [info ] [MainThread]: python version: 3.12.5
+[0m13:02:09.277049 [info ] [MainThread]: python path: C:\Users\thyag\.pyenv\pyenv-win\versions\3.12.5\python.exe
+[0m13:02:09.277645 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m13:02:09.336151 [info ] [MainThread]: Using profiles dir at C:\Users\thyag\.dbt
+[0m13:02:09.337811 [info ] [MainThread]: Using profiles.yml file at C:\Users\thyag\.dbt\profiles.yml
+[0m13:02:09.337811 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\thyag\repositorios-github\airflow3-project\dbt\dbt_project.yml
+[0m13:02:09.337811 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:02:09.340067 [debug] [MainThread]: Command `dbt debug` failed at 13:02:09.340067 after 0.36 seconds
+[0m13:02:09.340067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD88AF10A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD8825E600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD88DC4DA0>]}
+[0m13:02:09.340067 [debug] [MainThread]: Flushing usage events
+[0m13:02:09.932881 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:04:33.893307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E1E6B1A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E1E0952B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E1E14D310>]}
+
+
+============================== 13:04:33.896859 | 03bb6478-aea4-4894-b1da-c92299d44f15 ==============================
+[0m13:04:33.896859 [info ] [MainThread]: Running with dbt=1.9.6
+[0m13:04:33.896859 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\thyag\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:04:33.915069 [info ] [MainThread]: dbt version: 1.9.6
+[0m13:04:33.916069 [info ] [MainThread]: python version: 3.12.5
+[0m13:04:33.916069 [info ] [MainThread]: python path: C:\Users\thyag\.pyenv\pyenv-win\versions\3.12.5\python.exe
+[0m13:04:33.916069 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m13:04:33.972478 [info ] [MainThread]: Using profiles dir at C:\Users\thyag\.dbt
+[0m13:04:33.972478 [info ] [MainThread]: Using profiles.yml file at C:\Users\thyag\.dbt\profiles.yml
+[0m13:04:33.972478 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\thyag\repositorios-github\airflow3-project\dbt\dbt_project.yml
+[0m13:04:33.972478 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:04:33.972478 [debug] [MainThread]: Command `dbt debug` failed at 13:04:33.972478 after 0.42 seconds
+[0m13:04:33.972478 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E1B8A45C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E1E96CF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E1E5B86B0>]}
+[0m13:04:33.972478 [debug] [MainThread]: Flushing usage events
+[0m13:04:34.691349 [debug] [MainThread]: An error was encountered while trying to flush usage events

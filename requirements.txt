@@ -1,0 +1,9 @@
+# Astro Runtime includes the following pre-installed providers packages: https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+beautifulsoup4==4.12.3
+pymongo==4.8.0
+dbt-core
+dbt-postgres
+psycopg2-binary
+pandas
+numpy
+python-telegram-bot==21.10

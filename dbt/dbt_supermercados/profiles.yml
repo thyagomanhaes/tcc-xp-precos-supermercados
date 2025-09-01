@@ -1,0 +1,13 @@
+dbt_supermercados:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: admin
+      password: admin123
+      port: 5433
+      dbname: supermercados_db
+      schema: silver
+      threads: 4
+
