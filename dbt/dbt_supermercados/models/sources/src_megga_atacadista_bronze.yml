@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: megga_atacadista
+    schema: megga_atacadista_bronze
+    tables:
+      - name: megga_atacadista

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: atacadao
+    schema: atacadao_bronze
+    tables:
+      - name: produtos_atacadao
+  - name: megga_atacadista
+    schema: megga_atacadista_bronze
+    tables:
+      - name: produtos_megga_atacadista

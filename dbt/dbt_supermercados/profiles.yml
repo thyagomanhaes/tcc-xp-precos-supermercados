@@ -3,11 +3,21 @@ dbt_supermercados:
   outputs:
     dev:
       type: postgres
-      host: localhost
-      user: admin
-      password: admin123
+      host: "{{ env_var('DB_HOST') }}"
+      user: "{{ env_var('DB_USER') }}"
+      password: "{{ env_var('DB_PASSWORD') }}"
       port: 5433
       dbname: supermercados_db
       schema: silver
       threads: 4
+    prd:  
+      type: postgres
+      host: "{{ env_var('DB_HOST') }}"
+      user: "{{ env_var('DB_USER') }}"  
+      password: "{{ env_var('DB_PASSWORD') }}"
+      port: 5433
+      dbname: supermercados_db
+      schema: silver 
+      threads: 8   
+
 
